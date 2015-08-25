@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{0FE9F377-EFFA-4080-8387-FBC802D81DC2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.5</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dat\csv\0_0.csv" />
+    <Content Include="dat\csv\0_1.csv" />
+    <Content Include="dat\csv\0_10.csv" />
+    <Content Include="dat\csv\0_11.csv" />
+    <Content Include="dat\csv\0_12.csv" />
+    <Content Include="dat\csv\0_13.csv" />
+    <Content Include="dat\csv\0_14.csv" />
+    <Content Include="dat\csv\0_15.csv" />
+    <Content Include="dat\csv\0_16.csv" />
+    <Content Include="dat\csv\0_17.csv" />
+    <Content Include="dat\csv\0_18.csv" />
+    <Content Include="dat\csv\0_19.csv" />
+    <Content Include="dat\csv\0_2.csv" />
+    <Content Include="dat\csv\0_3.csv" />
+    <Content Include="dat\csv\0_4.csv" />
+    <Content Include="dat\csv\0_5.csv" />
+    <Content Include="dat\csv\0_6.csv" />
+    <Content Include="dat\csv\0_7.csv" />
+    <Content Include="dat\csv\0_8.csv" />
+    <Content Include="dat\csv\0_9.csv" />
+    <Content Include="dat\csv\1_0.csv" />
+    <Content Include="dat\csv\1_1.csv" />
+    <Content Include="dat\csv\1_10.csv" />
+    <Content Include="dat\csv\1_11.csv" />
+    <Content Include="dat\csv\1_12.csv" />
+    <Content Include="dat\csv\1_13.csv" />
+    <Content Include="dat\csv\1_14.csv" />
+    <Content Include="dat\csv\1_15.csv" />
+    <Content Include="dat\csv\1_16.csv" />
+    <Content Include="dat\csv\1_17.csv" />
+    <Content Include="dat\csv\1_18.csv" />
+    <Content Include="dat\csv\1_19.csv" />
+    <Content Include="dat\csv\1_2.csv" />
+    <Content Include="dat\csv\1_3.csv" />
+    <Content Include="dat\csv\1_4.csv" />
+    <Content Include="dat\csv\1_5.csv" />
+    <Content Include="dat\csv\1_6.csv" />
+    <Content Include="dat\csv\1_7.csv" />
+    <Content Include="dat\csv\1_8.csv" />
+    <Content Include="dat\csv\1_9.csv" />
+    <Content Include="dat\csv\2_0.csv" />
+    <Content Include="dat\csv\2_1.csv" />
+    <Content Include="dat\csv\2_10.csv" />
+    <Content Include="dat\csv\2_11.csv" />
+    <Content Include="dat\csv\2_12.csv" />
+    <Content Include="dat\csv\2_13.csv" />
+    <Content Include="dat\csv\2_14.csv" />
+    <Content Include="dat\csv\2_15.csv" />
+    <Content Include="dat\csv\2_16.csv" />
+    <Content Include="dat\csv\2_17.csv" />
+    <Content Include="dat\csv\2_18.csv" />
+    <Content Include="dat\csv\2_19.csv" />
+    <Content Include="dat\csv\2_2.csv" />
+    <Content Include="dat\csv\2_3.csv" />
+    <Content Include="dat\csv\2_4.csv" />
+    <Content Include="dat\csv\2_5.csv" />
+    <Content Include="dat\csv\2_6.csv" />
+    <Content Include="dat\csv\2_7.csv" />
+    <Content Include="dat\csv\2_8.csv" />
+    <Content Include="dat\csv\2_9.csv" />
+    <Content Include="dat\csv\3_0.csv" />
+    <Content Include="dat\csv\3_1.csv" />
+    <Content Include="dat\csv\3_10.csv" />
+    <Content Include="dat\csv\3_11.csv" />
+    <Content Include="dat\csv\3_12.csv" />
+    <Content Include="dat\csv\3_13.csv" />
+    <Content Include="dat\csv\3_14.csv" />
+    <Content Include="dat\csv\3_15.csv" />
+    <Content Include="dat\csv\3_16.csv" />
+    <Content Include="dat\csv\3_17.csv" />
+    <Content Include="dat\csv\3_18.csv" />
+    <Content Include="dat\csv\3_19.csv" />
+    <Content Include="dat\csv\3_2.csv" />
+    <Content Include="dat\csv\3_3.csv" />
+    <Content Include="dat\csv\3_4.csv" />
+    <Content Include="dat\csv\3_5.csv" />
+    <Content Include="dat\csv\3_6.csv" />
+    <Content Include="dat\csv\3_7.csv" />
+    <Content Include="dat\csv\3_8.csv" />
+    <Content Include="dat\csv\3_9.csv" />
+    <Content Include="dat\csv\4_0.csv" />
+    <Content Include="dat\csv\4_1.csv" />
+    <Content Include="dat\csv\4_10.csv" />
+    <Content Include="dat\csv\4_11.csv" />
+    <Content Include="dat\csv\4_12.csv" />
+    <Content Include="dat\csv\4_13.csv" />
+    <Content Include="dat\csv\4_14.csv" />
+    <Content Include="dat\csv\4_15.csv" />
+    <Content Include="dat\csv\4_16.csv" />
+    <Content Include="dat\csv\4_17.csv" />
+    <Content Include="dat\csv\4_18.csv" />
+    <Content Include="dat\csv\4_19.csv" />
+    <Content Include="dat\csv\4_2.csv" />
+    <Content Include="dat\csv\4_3.csv" />
+    <Content Include="dat\csv\4_4.csv" />
+    <Content Include="dat\csv\4_5.csv" />
+    <Content Include="dat\csv\4_6.csv" />
+    <Content Include="dat\csv\4_7.csv" />
+    <Content Include="dat\csv\4_8.csv" />
+    <Content Include="dat\csv\4_9.csv" />
+    <Content Include="dat\img\bg.png" />
+    <Content Include="dat\img\f1_48.png" />
+    <Content Include="dat\img\f2_48.png" />
+    <Content Include="dat\img\f3_48.png" />
+    <Content Include="dat\img\heart.png" />
+    <Content Include="dat\img\HI-.png" />
+    <Content Include="dat\img\hoshi_24b.png" />
+    <Content Include="dat\img\hoshi_24g.png" />
+    <Content Include="dat\img\hoshi_24r.png" />
+    <Content Include="dat\img\hoshi_24y.png" />
+    <Content Include="dat\img\hoshi_48b.png" />
+    <Content Include="dat\img\howto.png" />
+    <Content Include="dat\img\kannbann.png" />
+    <Content Include="dat\img\onaka.png" />
+    <Content Include="dat\img\rumia.png" />
+    <Content Include="dat\img\rumia_down.png" />
+    <Content Include="dat\img\rumia_faith.png" />
+    <Content Include="dat\img\rumia_up.png" />
+    <Content Include="dat\img\SCORE.png" />
+    <Content Include="dat\img\title00.png" />
+    <Content Include="dat\img\title01_b.png" />
+    <Content Include="dat\img\title01_by.png" />
+    <Content Include="dat\img\title01_s.png" />
+    <Content Include="dat\img\title02_b.png" />
+    <Content Include="dat\img\title02_by.png" />
+    <Content Include="dat\img\title02_s.png" />
+    <Content Include="dat\img\triforce.png" />
+    <Content Include="dat\img\waku.png" />
+    <Content Include="dat\img\zanki.png" />
+    <Content Include="dat\music\bgm0.m4a" />
+    <Content Include="dat\music\bgm0.ogg" />
+    <Content Include="dat\music\bgm1.m4a" />
+    <Content Include="dat\music\bgm1.ogg" />
+    <Content Include="dat\music\bgm2.m4a" />
+    <Content Include="dat\music\bgm2.ogg" />
+    <Content Include="dat\se\death.m4a" />
+    <Content Include="dat\se\death.ogg" />
+    <Content Include="dat\se\death2.m4a" />
+    <Content Include="dat\se\death2.ogg" />
+    <Content Include="dat\se\gameover.m4a" />
+    <Content Include="dat\se\gameover.ogg" />
+    <Content Include="dat\se\get_item.m4a" />
+    <Content Include="dat\se\get_item.ogg" />
+    <Content Include="dat\se\jump.m4a" />
+    <Content Include="dat\se\jump.ogg" />
+    <Content Include="dat\se\ok.m4a" />
+    <Content Include="dat\se\ok.ogg" />
+    <Content Include="dat\se\pause.m4a" />
+    <Content Include="dat\se\pause.ogg" />
+    <Content Include="dat\se\select.m4a" />
+    <Content Include="dat\se\select.ogg" />
+    <Content Include="index.html" />
+    <Content Include="scripts\require.js" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="scripts\app.ts" />
+    <TypeScriptCompile Include="scripts\const.ts" />
+    <TypeScriptCompile Include="scripts\gameAudio.ts" />
+    <TypeScriptCompile Include="scripts\game.ts" />
+    <TypeScriptCompile Include="scripts\gameAudioWAA.ts" />
+    <TypeScriptCompile Include="scripts\gameImage.ts" />
+    <TypeScriptCompile Include="scripts\howTo.ts" />
+    <TypeScriptCompile Include="scripts\iGameAudio.ts" />
+    <TypeScriptCompile Include="scripts\iGameImage.ts" />
+    <TypeScriptCompile Include="scripts\iScene.ts" />
+    <TypeScriptCompile Include="scripts\item.ts" />
+    <TypeScriptCompile Include="scripts\keyControl.ts" />
+    <TypeScriptCompile Include="scripts\KYScene.ts" />
+    <TypeScriptCompile Include="scripts\loadWait.ts" />
+    <TypeScriptCompile Include="scripts\play.ts" />
+    <TypeScriptCompile Include="scripts\rumia.ts" />
+    <TypeScriptCompile Include="scripts\star.ts" />
+    <TypeScriptCompile Include="scripts\title.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>TypeScriptHTMLApp1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49330</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49330/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>False</TypeScriptSourceMap>
+    <DefineConstants>
+    </DefineConstants>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+    <TypeScriptOutFile>
+    </TypeScriptOutFile>
+    <TypeScriptOutDir>
+    </TypeScriptOutDir>
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptOutFile>scripts/test.js</TypeScriptOutFile>
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

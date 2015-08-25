@@ -1,0 +1,6 @@
+C:\Users\akira\Documents\Visual Studio 2015\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\bin\KuhukuYako.dll.config
+C:\Users\akira\Documents\Visual Studio 2015\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\bin\KuhukuYako.dll
+C:\Users\akira\Documents\Visual Studio 2015\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\bin\KuhukuYako.pdb
+C:\Users\akira\Documents\Visual Studio 2015\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\obj\Debug\KuhukuYako.dll
+C:\Users\akira\Documents\Visual Studio 2015\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\obj\Debug\KuhukuYako.pdb
+C:\Users\akira\Documents\Visual Studio 2015\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\obj\Debug\KuhukuYako.csprojResolveAssemblyReference.cache
