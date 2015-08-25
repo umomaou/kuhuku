@@ -198,6 +198,9 @@ define(["require", "exports", "const"], function (require, exports, C) {
             this.setHappy = function () {
                 _this.happyCount = 110;
             };
+            this.isFlag = function () {
+                return _this.flag;
+            };
             this.isHittingItem = function (target) {
                 if (!_this.flag || _this.state != State.Alive || !target.isFlag())
                     return false;

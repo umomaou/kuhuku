@@ -14,7 +14,7 @@ define(["require", "exports", "KYScene"], function (require, exports, KYScene) {
                 _this.count = 0;
                 _this.menuSelect = 0;
                 _this.menuCool = 0;
-                _this.currentTime = -1;
+                _this.decidePoint = -1;
                 _this.nextScene = "";
                 _this.whiteDepth = 1;
                 _this.hiScore = _this.getHiScore();
@@ -27,7 +27,7 @@ define(["require", "exports", "KYScene"], function (require, exports, KYScene) {
                     _this.whiteDepth -= 1 / 30;
                     _this.music.changeVolume("bgm0", _this.count / 30);
                 }
-                if (_this.count >= 60 && _this.currentTime == -1) {
+                if (_this.count >= 60 && _this.decidePoint == -1) {
                     if (_this.keyControl.getKey("Left").getCount() == 1 && _this.menuCool == 0) {
                         _this.menuSelect++;
                         _this.menuCool = 6;
@@ -41,21 +41,21 @@ define(["require", "exports", "KYScene"], function (require, exports, KYScene) {
                     if (_this.keyControl.getKey("Z").getCount() == 1) {
                         _this.se.play("ok");
                         if (_this.menuSelect % 2 == 0) {
-                            _this.currentTime = _this.count;
+                            _this.decidePoint = _this.count;
                             _this.nextScene = "play";
                         }
                         if (_this.menuSelect % 2 == 1) {
-                            _this.currentTime = _this.count;
+                            _this.decidePoint = _this.count;
                             _this.nextScene = "howTo";
                         }
                     }
                 }
                 if (_this.menuCool > 0)
                     _this.menuCool--;
-                if (_this.currentTime != -1) {
-                    _this.whiteDepth = (_this.count - _this.currentTime) / 30;
-                    _this.music.changeVolume("bgm0", 1 - (_this.count - _this.currentTime) / 30);
-                    if ((_this.count - _this.currentTime) == 30) {
+                if (_this.decidePoint != -1) {
+                    _this.whiteDepth = (_this.count - _this.decidePoint) / 30;
+                    _this.music.changeVolume("bgm0", 1 - (_this.count - _this.decidePoint) / 30);
+                    if ((_this.count - _this.decidePoint) == 30) {
                         _this.changeScene(_this.nextScene);
                         _this.music.stop("bgm0");
                     }
@@ -74,11 +74,11 @@ define(["require", "exports", "KYScene"], function (require, exports, KYScene) {
                     }
                     _this.image.draw(_this.ctx, "title00", 90, 122);
                     if (_this.menuSelect % 2 == 0)
-                        _this.image.draw(_this.ctx, (_this.currentTime == -1 || ((_this.count - _this.currentTime) % 8) >= 4) ? "title01_b" : "title01_by", 86, 266);
+                        _this.image.draw(_this.ctx, (_this.decidePoint == -1 || ((_this.count - _this.decidePoint) % 8) >= 4) ? "title01_b" : "title01_by", 86, 266);
                     else
                         _this.image.draw(_this.ctx, "title01_s", 102, 274);
                     if (_this.menuSelect % 2 == 1)
-                        _this.image.draw(_this.ctx, (_this.currentTime == -1 || ((_this.count - _this.currentTime) % 8) >= 4) ? "title02_b" : "title02_by", 266, 266);
+                        _this.image.draw(_this.ctx, (_this.decidePoint == -1 || ((_this.count - _this.decidePoint) % 8) >= 4) ? "title02_b" : "title02_by", 266, 266);
                     else
                         _this.image.draw(_this.ctx, "title02_s", 282, 274);
                 }

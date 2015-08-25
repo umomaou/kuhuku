@@ -173,31 +173,53 @@
     <Content Include="dat\se\pause.ogg" />
     <Content Include="dat\se\select.m4a" />
     <Content Include="dat\se\select.ogg" />
-    <Content Include="index.html" />
+    <Content Include="game.html" />
+    <Content Include="scripts\app.js" />
+    <Content Include="scripts\const.js" />
+    <Content Include="scripts\game.js" />
+    <Content Include="scripts\gameAudio.js" />
+    <Content Include="scripts\gameAudioWAA.js" />
+    <Content Include="scripts\gameImage.js" />
+    <Content Include="scripts\howTo.js" />
+    <Content Include="scripts\iGameAudio.js" />
+    <Content Include="scripts\iGameImage.js" />
+    <Content Include="scripts\iScene.js" />
+    <Content Include="scripts\item.js" />
+    <Content Include="scripts\itemControl.js" />
+    <Content Include="scripts\keyControl.js" />
+    <Content Include="scripts\KYScene.js" />
+    <Content Include="scripts\loadWait.js" />
+    <Content Include="scripts\play.js" />
     <Content Include="scripts\require.js" />
+    <Content Include="scripts\rumia.js" />
+    <Content Include="scripts\star.js" />
+    <Content Include="scripts\starControl.js" />
+    <Content Include="scripts\title.js" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="scripts\app.ts" />
-    <TypeScriptCompile Include="scripts\const.ts" />
-    <TypeScriptCompile Include="scripts\gameAudio.ts" />
-    <TypeScriptCompile Include="scripts\game.ts" />
-    <TypeScriptCompile Include="scripts\gameAudioWAA.ts" />
-    <TypeScriptCompile Include="scripts\gameImage.ts" />
-    <TypeScriptCompile Include="scripts\howTo.ts" />
-    <TypeScriptCompile Include="scripts\iGameAudio.ts" />
-    <TypeScriptCompile Include="scripts\iGameImage.ts" />
-    <TypeScriptCompile Include="scripts\iScene.ts" />
-    <TypeScriptCompile Include="scripts\item.ts" />
-    <TypeScriptCompile Include="scripts\keyControl.ts" />
-    <TypeScriptCompile Include="scripts\KYScene.ts" />
-    <TypeScriptCompile Include="scripts\loadWait.ts" />
-    <TypeScriptCompile Include="scripts\play.ts" />
-    <TypeScriptCompile Include="scripts\rumia.ts" />
-    <TypeScriptCompile Include="scripts\star.ts" />
-    <TypeScriptCompile Include="scripts\title.ts" />
+    <TypeScriptCompile Include="ts\app.ts" />
+    <TypeScriptCompile Include="ts\const.ts" />
+    <TypeScriptCompile Include="ts\gameAudio.ts" />
+    <TypeScriptCompile Include="ts\game.ts" />
+    <TypeScriptCompile Include="ts\gameAudioWAA.ts" />
+    <TypeScriptCompile Include="ts\gameImage.ts" />
+    <TypeScriptCompile Include="ts\howTo.ts" />
+    <TypeScriptCompile Include="ts\iGameAudio.ts" />
+    <TypeScriptCompile Include="ts\iGameImage.ts" />
+    <TypeScriptCompile Include="ts\iScene.ts" />
+    <TypeScriptCompile Include="ts\item.ts" />
+    <TypeScriptCompile Include="ts\itemControl.ts" />
+    <TypeScriptCompile Include="ts\keyControl.ts" />
+    <TypeScriptCompile Include="ts\KYScene.ts" />
+    <TypeScriptCompile Include="ts\loadWait.ts" />
+    <TypeScriptCompile Include="ts\play.ts" />
+    <TypeScriptCompile Include="ts\rumia.ts" />
+    <TypeScriptCompile Include="ts\star.ts" />
+    <TypeScriptCompile Include="ts\starControl.ts" />
+    <TypeScriptCompile Include="ts\title.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
@@ -207,6 +229,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
@@ -244,8 +267,7 @@
     <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
     <TypeScriptOutFile>
     </TypeScriptOutFile>
-    <TypeScriptOutDir>
-    </TypeScriptOutDir>
+    <TypeScriptOutDir>C:\Users\akira\Documents\Visual Studio 2015\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\scripts</TypeScriptOutDir>
     <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
     <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
     <TypeScriptMapRoot />
